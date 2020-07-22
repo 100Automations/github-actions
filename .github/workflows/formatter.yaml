@@ -1,6 +1,7 @@
+name: formatter
 on:
   pull_request:
-    branches: [master]
+    branches: [master, main]
     types: [opened, synchronize, closed]
 
 jobs:
