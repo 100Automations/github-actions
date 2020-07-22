@@ -42,6 +42,20 @@ repos:
 
 ### Examples of Useful Pre-Commit Hooks
 
+Examples and notes in `.pre-commit-config.yaml`
 
 ### Custom Pre-Commit-Hooks
+
+### Using Hooks
+
+Add the `.pre-commit-config.yaml` to the root of your directory
+Create a `requirements.txt` file and add `pre-commit`
+run `pre-commit install` from the root of your repo on the command line to add the hooks to your `.git/`
+
+### More Resources
+
+[More Information on Hooks](https://githooks.com/)
+
+[More Pre-Built Pre-Commit Hooks](https://github.com/pre-commit/pre-commit-hooks)
+
 
