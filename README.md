@@ -48,9 +48,9 @@ Examples and notes in `.pre-commit-config.yaml`
 
 ### Using Hooks
 
-Add the `.pre-commit-config.yaml` to the root of your directory
-Create a `requirements.txt` file and add `pre-commit`
-run `pre-commit install` from the root of your repo on the command line to add the hooks to your `.git/`
+Add the `.pre-commit-config.yaml` to the root of your directory.      
+Create a `requirements.txt` file and add `pre-commit`.       
+run `pre-commit install` from the root of your repo on the command line to add the hooks to your `.git/`.     
 
 ### More Resources
 
