@@ -14,7 +14,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: format
         id: format
-        uses: jafow/action-python-format-pr@master
+        uses: jafow/action-python-format-pr@v0.2.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
