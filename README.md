@@ -32,8 +32,8 @@ To add, you create a file called `.pre-commit-config.yaml` and save it in the ro
 Example: 
 
 repos:
--   repo: https://github.com/path-to-repo-with-hook # url to repo containing hook. 
-    rev: v2.3.0   
+-   repo: https://github.com/path-to-repo-with-hook # url to repo containing hook.       
+    rev: v2.3.0       
     hooks: # list of hooks to use.  
     -   id: hook-i-want.  
         description: Looks at file size, max set to 250kb. 
