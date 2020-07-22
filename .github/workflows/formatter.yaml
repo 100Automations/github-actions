@@ -1,0 +1,26 @@
+name: formatter
+on:
+  pull_request:
+    branches: [master, main]
+    types: [opened, synchronize, closed]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    name: format .py files
+    steps:
+      - name: Checkout pr
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: format
+        id: format
+        uses: jafow/action-python-format-pr@v0.2.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          pr-base-branch: ${{ github.event.pull_request.base.sha }}
+      # Use the output from the `format` step
+      - name: Get the list of files to be changed
+        run: echo "The time was ${{ steps.format.outputs.fileslist }}"
+
