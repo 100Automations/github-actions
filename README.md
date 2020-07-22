@@ -1,4 +1,6 @@
-# pre-commit-hooks-demo
+# Github Actions
+
+## pre-commit hooks
 
 ### What is Pre-Commit Hook?
 
