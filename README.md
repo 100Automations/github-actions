@@ -36,8 +36,8 @@ repos:
     rev: v2.3.0       
     hooks: # list of hooks to use.  
     -   id: hook-i-want.  
-        description: Looks at file size, max set to 250kb. 
-        args: [--maxkb=250]
+        description: Looks at file size, max set to 250kb.    
+        args: [--maxkb=250].  
 
 
 ### Examples of Useful Pre-Commit Hooks
