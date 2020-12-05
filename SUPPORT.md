@@ -1,4 +1,4 @@
-Detailed documentation is included in the [readme](https://github.com/100Automations/true-github-contributors/blob/mixin/readme.md).
+Detailed documentation is included in the [readme](https://github.com/100Automations/github-actions/blob/master/README.md).
 
 For any questions, please feel free to drop into the [100 Automations slack](https://hackforla.slack.com/archives/C018S5TCQE7) and @ mention me (@Sophia Alice) to ask any questions. If you are not a member of the Hack for LA slack you can join [here](https://hackforla.org/slack).
 
